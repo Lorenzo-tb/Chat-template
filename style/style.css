@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw !important; 
+    height: 100vh in !important;
+    background-image: url(../img/back-ground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row{
+    margin: 0 !important;
+
+}
+
+.meu-input{
+    height: 8vh;
+    background-color: rgba(0, 0, 0, 0.267) !important;
+}
+
+
+.meu-pt{
+    padding-top: 23%;
+}
+
+#entrar{
+    width: 100%;
+    height: 10vh;
+}
+.meu-btn{
+    background-color: #6719A4;
+    stroke: none;
+    color: #fff;
+    border-radius: 13px;
+}
+
