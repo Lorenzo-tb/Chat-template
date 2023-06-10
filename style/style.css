@@ -5,7 +5,7 @@
 
 body{
     width: 100vw !important; 
-    height: 100vh in !important;
+    height: 100vh !important;
     background-image: url(../img/back-ground.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,6 +19,15 @@ body{
 .meu-input{
     height: 8vh;
     background-color: rgba(0, 0, 0, 0.267) !important;
+    color: #858585;
+}
+
+.meu-input::placeholder{
+    color:#858585;
+}
+
+.meu-input.destaque{
+    color: #858585;
 }
 
 
@@ -35,5 +44,21 @@ body{
     stroke: none;
     color: #fff;
     border-radius: 13px;
+}
+
+.meu-h1{
+    font-size: 3.5rem;
+}
+
+nav{
+    background-color: #444444 !important;
+    border-bottom: solid #000;
+}
+
+#mais{
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
 }
 
