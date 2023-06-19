@@ -65,10 +65,7 @@ nav{
     border-bottom: solid #000;
 }
 
-header{
-    position: fixed;
-    z-index: 9999;
-}
+
 
 .mais{
     background-color: rgba(0, 0, 0, 0);
