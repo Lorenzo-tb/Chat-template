@@ -42,7 +42,7 @@ a{
 
 
 .meu-pt{
-    
+    padding-top: 25%;
 }
 
 #entrar{
@@ -63,6 +63,11 @@ a{
 nav{
     background-color: #444444 !important;
     border-bottom: solid #000;
+}
+
+header{
+    position: fixed;
+    z-index: 9999;
 }
 
 .mais{
