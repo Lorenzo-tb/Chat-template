@@ -16,6 +16,11 @@ a{
     color: inherit;
 }
 
+.m0{
+    margin: 0;
+    padding: 0;
+}
+
 .row{
     margin: 0 !important;
 
@@ -24,7 +29,7 @@ a{
 .meu-input{
     height: 8vh;
     background-color: rgba(0, 0, 0, 0.267) !important;
-    color: #858585;
+    color: #ffffff;
 }
 
 .meu-input::placeholder{
@@ -37,7 +42,7 @@ a{
 
 
 .meu-pt{
-    padding-top: 23%;
+    
 }
 
 #entrar{
@@ -52,7 +57,7 @@ a{
 }
 
 .meu-h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 nav{
@@ -60,7 +65,7 @@ nav{
     border-bottom: solid #000;
 }
 
-#mais{
+.mais{
     background-color: rgba(0, 0, 0, 0);
     border: none;
     width: 70px;
@@ -69,10 +74,10 @@ nav{
 }
 
 .minha-fonte{
-    font-family: Jura; font-size: 24px; 
+    font-family: Jura; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 700; 
+    font-weight:lighter; 
     line-height: 26.4px;
 }
 
@@ -91,3 +96,40 @@ nav{
     width: 50px;
     max-width: 100%;
 }
+
+.minha-margemtop{
+    margin-top: 10%;
+}
+
+#checkbox{
+    accent-color: #4E008A;
+}
+
+#minha-mensagem{
+    width: 100vw;
+    z-index: 9999;
+    position: fixed;
+    bottom: 0;
+}
+
+#minha-imagem{
+    width: 3vw;
+    max-width: 100%;
+    height: auto;
+}
+
+#candido{
+    width: 40vw;
+    height: 55vh;
+    
+    animation: girar 3s linear infinite;
+}
+
+@keyframes girar {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
